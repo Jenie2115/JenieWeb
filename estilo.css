@@ -1,0 +1,160 @@
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration:none;
+list-style: none;
+}
+
+body {
+  
+   font-family:arial;    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.content{
+   min-height: 80px; 
+   background: #C28127;   
+}
+
+.menu {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    rigth: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: right;
+}
+.menu .navbar ul li { 
+    position: relative;
+    float:left;
+    
+    
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+    
+}
+.menu .navbar ul li a:hover{
+    color: #ffffff;
+}
+
+#menu{
+    display: none;
+}
+
+    .menu-icono{
+    width: 40px; 
+  
+}
+    ul li{
+        text-decoration:none;
+        list-style:none;
+        
+    }
+
+
+    .menu label{
+    cursor:pointer;
+    display: none;
+}
+
+    h1{
+    display:none;
+    white-space: normal;
+    }
+   
+    .Undertale {     
+     width: 300px;
+     }
+     .Deltarune{
+         width: 300px;
+     }
+     
+     .Frisk {
+     padding: 10px;
+      width: 100px;                
+     }
+    
+    
+    h2{     
+      text-align: center;
+    }
+    
+    p{
+        margin-left:30px;
+        margin-right:30px;
+        text-indent: 25px;
+        text-align: justify;
+    }
+
+
+@media (max-width:991px) {
+
+    .content {       
+        min-height: 70px;
+    }
+    
+    .menu{
+        top: 0;
+        padding: 10px;
+        
+    }
+    
+    .menu label{
+        display:initial;        
+    }
+    
+    .menu .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background: #C28127;
+        display: none;
+     
+    }       
+    .menu:hover .navbar{
+        display:block;
+        height: 300px;
+        width: 200px;
+        margin-left: 45px;
+       
+    }
+    
+    
+    .menu .navbar ul li{  
+        width: 100%;
+       
+    }
+      .home{
+        width: 10px;  
+          
+      }      
+      
+      .Soundtrack{
+          padding: 20px;
+          bottom: 20px;
+      }
+    
+}
